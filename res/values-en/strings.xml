@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">LogCat</string>
+    <string name="clearstr">Clear</string>
+    <string name="startstr">Start</string>
+    <string name="exitstr">Exit</string>
+    <string name="explainstr">R as Root permissions to view the log!\n\nIf cannot view the log, please check!</string>
+    <string name="aboutstr">By: ざ凍結の→愛\nSoftware development group communication: 134840268\nPython For Android: 332466069\nEmail: 892768447@qq.com</string>
+    <string name="savepathstr">/sdcard/LogCat.log</string>
+    <string name="packagestr">Packages Name: </string>
+    <string name="savestr">Save Path: </string>
+    <string name="tag_v_str">V</string>
+    <string name="tag_d_str">D</string>
+    <string name="tag_i_str">I</string>
+    <string name="tag_w_str">W</string>
+    <string name="tag_e_str">E</string>
+    <string name="rootstr">R</string>
+    <string name="copystr">copy content</string>
+    <string name="searchstr">search content</string>
+    <string name="toolstr">notice</string>
+    <string name="ftgtd">Failed to get the data</string>
+    <string name="sdknotice">Your mobile SDK version > 15 \nNeed Permissions!</string>
+    <string name="notfound">The program was not found, please make sure the input is correct</string>
+    <string name="selectstr">Please select the operating</string>
+    <string name="copynotice">Has been copied to the clipboard</string>
+    <string name="bnotfound">Browser not found!</string>
+    <string name="backstr">The program in the background</string>
+    <string name="autorun">Automatic operation failed! Please manually run!</string>
+    <string name="runstr">Starting...</string>
+    <string name="wnotice">Warm prompt</string>
+    <string name="wmsg">Abnormal exit record files \nEmail sent to the developers?</string>
+    <string name="send">Send</string>
+    <string name="cancle">Cancle</string>
+    <string name="report">LogCat Bug Report</string>
+    <string name="search">http://m.baidu.com/s?word=</string>
+
+</resources>

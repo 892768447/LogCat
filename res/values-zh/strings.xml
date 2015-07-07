@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">LogCat</string>
+    <string name="clearstr">清空屏幕</string>
+    <string name="startstr">开始查看</string>
+    <string name="exitstr">退出程序</string>
+    <string name="explainstr">R代表以Root权限查看log!\n\n若不能查看log请勾选!</string>
+    <string name="aboutstr">By: ざ凍結の→愛\n软件开发交流群: 134840268\nPython For Android群: 332466069\nEmail: 892768447@qq.com</string>
+    <string name="savepathstr">/sdcard/LogCat.log</string>
+    <string name="packagestr">软件包名: </string>
+    <string name="savestr">保存路径: </string>
+    <string name="tag_v_str">V</string>
+    <string name="tag_d_str">D</string>
+    <string name="tag_i_str">I</string>
+    <string name="tag_w_str">W</string>
+    <string name="tag_e_str">E</string>
+    <string name="rootstr">R</string>
+    <string name="search">http://m.baidu.com/s?word=</string>
+    <string name="copystr">复制内容</string>
+    <string name="searchstr">搜索内容</string>
+    <string name="toolstr">提示</string>
+    <string name="selectstr">请选择操作</string>
+    <string name="ftgtd">未能获取到数据</string>
+    <string name="notfound">未找到该程序,请确认输入正确</string>
+    <string name="copynotice">已复制到粘贴板</string>
+    <string name="bnotfound">未找到浏览器!</string>
+    <string name="backstr">程序后台运行中</string>
+    <string name="autorun">自动运行失败!请手动运行!</string>
+    <string name="runstr">正在启动</string>
+    <string name="wnotice">温馨提示</string>
+    <string name="wmsg">发现异常退出的记录文件\n是否发送至开发人员邮箱？</string>
+    <string name="send">发送</string>
+    <string name="cancle">算了</string>
+    <string name="report">LogCat错误报告</string>
+    <string name="error">程序被非法修改!</string>
+    <string name="sdknotice">您的手机sdk version > 15 \n建议您开启root权限!</string>
+
+</resources>

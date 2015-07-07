@@ -1,0 +1,36 @@
+zce.log.cat.BuildConfig
+zce.log.cat.LogCatAdapter:
+    101:103:public LogCatAdapter(android.content.Context,int)
+    117:119:public LogCatAdapter(android.content.Context,int,int)
+    132:134:public LogCatAdapter(android.content.Context,int,java.lang.Object[])
+    150:153:public LogCatAdapter(android.content.Context,int,int,java.lang.Object[])
+    185:188:public LogCatAdapter(android.content.Context,int,int,java.util.List)
+    197:206:public void add(java.lang.Object)
+    215:224:public void addAll(java.util.Collection)
+    233:242:public varargs void addAll(java.lang.Object[])
+    253:262:public void insert(java.lang.Object,int)
+    271:280:public void remove(java.lang.Object)
+    286:295:public void clear()
+    305:314:public void sort(java.util.Comparator)
+    340:341:public void setNotifyOnChange(boolean)
+    360:360:public android.content.Context getContext()
+    386:386:public int getPosition(java.lang.Object)
+    452:453:public void setDropDownViewResource(int)
+    480:482:public static zce.log.cat.LogCatAdapter createFromResource(android.content.Context,int,int)
+zce.log.cat.LogCatService:
+    private static final java.lang.String grey
+    private static final java.lang.String blue
+    private static final java.lang.String green
+    private static final java.lang.String orange
+    private static final java.lang.String red
+zce.log.cat.R
+zce.log.cat.R$anim
+zce.log.cat.R$attr
+zce.log.cat.R$color
+zce.log.cat.R$drawable
+zce.log.cat.R$id
+zce.log.cat.R$layout
+zce.log.cat.R$raw
+zce.log.cat.R$string
+zce.log.cat.R$style
+zce.log.cat.R$styleable

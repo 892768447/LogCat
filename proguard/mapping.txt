@@ -1,0 +1,234 @@
+zce.log.cat.LogCatActivity -> zce.log.cat.LogCatActivity:
+    android.widget.ListView listView -> d
+    zce.log.cat.widget.AutoCompleteTextView package_name_edit -> e
+    android.widget.EditText save_path_edit -> f
+    android.widget.CheckBox tag_vCheckBox -> g
+    android.widget.CheckBox tag_dCheckBox -> h
+    android.widget.CheckBox tag_iCheckBox -> i
+    android.widget.CheckBox tag_wCheckBox -> j
+    android.widget.CheckBox tag_eCheckBox -> k
+    android.widget.CheckBox tag_rCheckBox -> l
+    android.widget.Button startButton -> m
+    android.widget.Button clearButton -> n
+    android.widget.Button exitButton -> o
+    android.widget.Button copy -> p
+    android.widget.Button search -> q
+    android.widget.Toast toast -> r
+    android.content.Intent intent -> s
+    android.widget.TableLayout toollayout -> t
+    android.widget.RelativeLayout rltool -> u
+    java.util.ArrayList appname -> v
+    android.widget.ArrayAdapter adapter -> w
+    zce.log.cat.LogCatAdapter simpleAdapter -> x
+    zce.log.cat.LogCatActivity$MyReceiver receiver -> y
+    android.text.ClipboardManager cm -> z
+    zce.log.cat.LogCatService lcs -> A
+    java.lang.String SdPath -> B
+    java.lang.String logdata -> C
+    boolean isPause -> D
+    boolean isError -> E
+    android.content.ServiceConnection connection -> F
+    void onCreate(android.os.Bundle) -> onCreate
+    void onDestroy() -> onDestroy
+    void onPause() -> onPause
+    void onResume() -> onResume
+    void afterTextChanged(android.text.Editable) -> afterTextChanged
+    void beforeTextChanged(java.lang.CharSequence,int,int,int) -> beforeTextChanged
+    void onTextChanged(java.lang.CharSequence,int,int,int) -> onTextChanged
+    void onScroll(android.widget.AbsListView,int,int,int) -> onScroll
+    void onScrollStateChanged(android.widget.AbsListView,int) -> onScrollStateChanged
+    void onItemClick(android.widget.AdapterView,android.view.View,int,long) -> onItemClick
+    void onCheckedChanged(android.widget.CompoundButton,boolean) -> onCheckedChanged
+    void onClick(android.view.View) -> onClick
+    boolean onKeyDown(int,android.view.KeyEvent) -> onKeyDown
+    void getInstalledApps(boolean) -> a
+    void setCheckBoxValue() -> a
+    void startActivityByName(java.lang.String) -> a
+    void FindViewById() -> b
+    boolean getPause() -> e
+    void setPause(boolean) -> b
+    void sendErrorEmail() -> f
+    void showMenu() -> c
+    void showTool() -> d
+    void access$0(zce.log.cat.LogCatActivity,zce.log.cat.LogCatService) -> a
+    boolean access$1(zce.log.cat.LogCatActivity) -> a
+    android.widget.ListView access$2(zce.log.cat.LogCatActivity) -> b
+    zce.log.cat.LogCatAdapter access$3(zce.log.cat.LogCatActivity) -> c
+    java.util.ArrayList access$4(zce.log.cat.LogCatActivity) -> d
+    android.widget.RelativeLayout access$5(zce.log.cat.LogCatActivity) -> e
+    android.widget.ArrayAdapter access$6(zce.log.cat.LogCatActivity) -> f
+    java.lang.String access$7(zce.log.cat.LogCatActivity) -> g
+    void access$8(zce.log.cat.LogCatActivity,boolean) -> a
+zce.log.cat.LogCatActivity$1 -> zce.log.cat.èž:
+    zce.log.cat.LogCatActivity this$0 -> a
+    void onServiceConnected(android.content.ComponentName,android.os.IBinder) -> onServiceConnected
+    void onServiceDisconnected(android.content.ComponentName) -> onServiceDisconnected
+zce.log.cat.LogCatActivity$2 -> zce.log.cat.å…:
+    zce.log.cat.LogCatActivity this$0 -> a
+    void run() -> run
+zce.log.cat.LogCatActivity$3 -> zce.log.cat.è:
+    zce.log.cat.LogCatActivity this$0 -> a
+    boolean val$getSysPackages -> b
+    void run() -> run
+    zce.log.cat.LogCatActivity access$0(zce.log.cat.LogCatActivity$3) -> a
+zce.log.cat.LogCatActivity$3$1 -> zce.log.cat.é:
+    zce.log.cat.LogCatActivity$3 this$1 -> a
+    void run() -> run
+zce.log.cat.LogCatActivity$4 -> zce.log.cat.éª:
+    zce.log.cat.LogCatActivity this$0 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+zce.log.cat.LogCatActivity$5 -> zce.log.cat.ç:
+    zce.log.cat.LogCatActivity this$0 -> a
+    java.io.File val$file -> b
+    void onClick(android.content.DialogInterface,int) -> onClick
+zce.log.cat.LogCatActivity$MyReceiver -> zce.log.cat.çš:
+    zce.log.cat.LogCatActivity this$0 -> a
+    void onReceive(android.content.Context,android.content.Intent) -> onReceive
+    zce.log.cat.LogCatActivity access$1(zce.log.cat.LogCatActivity$MyReceiver) -> a
+zce.log.cat.LogCatActivity$MyReceiver$1 -> zce.log.cat.è³:
+    zce.log.cat.LogCatActivity$MyReceiver this$1 -> a
+    void run() -> run
+zce.log.cat.LogCatAdapter -> zce.log.cat.èµ:
+    java.util.List mObjects -> a
+    java.lang.Object mLock -> b
+    int mResource -> c
+    int mDropDownResource -> d
+    int mFieldId -> e
+    boolean mNotifyOnChange -> f
+    android.content.Context mContext -> g
+    java.util.ArrayList mOriginalValues -> h
+    zce.log.cat.LogCatAdapter$ArrayFilter mFilter -> i
+    android.view.LayoutInflater mInflater -> j
+    void notifyDataSetChanged() -> notifyDataSetChanged
+    void init(android.content.Context,int,int,java.util.List) -> a
+    int getCount() -> getCount
+    java.lang.Object getItem(int) -> getItem
+    long getItemId(int) -> getItemId
+    android.view.View getView(int,android.view.View,android.view.ViewGroup) -> getView
+    android.view.View createViewFromResource(int,android.view.View,android.view.ViewGroup,int) -> a
+    android.view.View getDropDownView(int,android.view.View,android.view.ViewGroup) -> getDropDownView
+    android.widget.Filter getFilter() -> getFilter
+    java.util.ArrayList access$0(zce.log.cat.LogCatAdapter) -> a
+    java.lang.Object access$1(zce.log.cat.LogCatAdapter) -> b
+    java.util.List access$2(zce.log.cat.LogCatAdapter) -> c
+    void access$3(zce.log.cat.LogCatAdapter,java.util.ArrayList) -> a
+    void access$4(zce.log.cat.LogCatAdapter,java.util.List) -> a
+zce.log.cat.LogCatAdapter$ArrayFilter -> zce.log.cat.è´:
+    zce.log.cat.LogCatAdapter this$0 -> a
+    android.widget.Filter$FilterResults performFiltering(java.lang.CharSequence) -> performFiltering
+    void publishResults(java.lang.CharSequence,android.widget.Filter$FilterResults) -> publishResults
+zce.log.cat.LogCatCheck -> zce.log.cat.çŠ:
+    java.util.List apps -> a
+    java.util.Iterator iter -> b
+    android.content.pm.PackageInfo info -> c
+    java.io.BufferedReader br -> d
+    java.lang.StringBuffer sb -> e
+    zce.log.cat.LogCatActivity lca -> f
+    zce.log.cat.LogCatEncrypt lce -> g
+    java.lang.String myPackageName -> h
+    void exit() -> b
+    void run() -> a
+    java.io.BufferedReader access$0(zce.log.cat.LogCatCheck) -> a
+    java.lang.StringBuffer access$1(zce.log.cat.LogCatCheck) -> b
+    java.util.List access$2(zce.log.cat.LogCatCheck) -> c
+    void access$3(zce.log.cat.LogCatCheck,java.util.Iterator) -> a
+    java.util.Iterator access$4(zce.log.cat.LogCatCheck) -> d
+    void access$5(zce.log.cat.LogCatCheck,android.content.pm.PackageInfo) -> a
+    android.content.pm.PackageInfo access$6(zce.log.cat.LogCatCheck) -> e
+    java.lang.String access$7(zce.log.cat.LogCatCheck) -> f
+    zce.log.cat.LogCatEncrypt access$8(zce.log.cat.LogCatCheck) -> g
+    zce.log.cat.LogCatActivity access$9(zce.log.cat.LogCatCheck) -> h
+    void access$10(zce.log.cat.LogCatCheck) -> i
+zce.log.cat.LogCatCheck$1 -> zce.log.cat.ç¿:
+    zce.log.cat.LogCatCheck this$0 -> a
+    void run() -> run
+zce.log.cat.LogCatEncrypt -> zce.log.cat.æ¯:
+    java.lang.String de(java.lang.String,java.lang.String) -> a
+zce.log.cat.LogCatInterface -> zce.log.cat.é½:
+    java.util.Map Tag -> a
+    int sdk -> b
+    java.util.ArrayList LogList -> c
+zce.log.cat.LogCatService -> zce.log.cat.LogCatService:
+    android.os.IBinder binder -> d
+    android.app.ActivityManager activityManager -> e
+    java.util.List procList -> f
+    int size -> g
+    java.lang.String command -> h
+    java.lang.String name -> i
+    java.lang.String path -> j
+    android.content.Intent inten -> k
+    boolean isPath -> l
+    java.io.File file -> m
+    java.io.BufferedWriter bw -> n
+    java.io.BufferedReader br -> o
+    java.lang.Process process -> p
+    android.os.Handler handler -> q
+    android.content.Context context -> r
+    java.lang.Thread thread -> s
+    java.util.regex.Matcher m -> t
+    java.util.regex.Pattern p -> u
+    android.os.IBinder onBind(android.content.Intent) -> onBind
+    boolean onUnbind(android.content.Intent) -> onUnbind
+    void onCreate() -> onCreate
+    void onDestroy() -> onDestroy
+    void setParams(java.lang.String,java.lang.String,java.lang.String) -> a
+    void startLogCat() -> a
+    android.app.ActivityManager access$0(zce.log.cat.LogCatService) -> a
+    void access$1(zce.log.cat.LogCatService,java.util.List) -> a
+    java.util.List access$2(zce.log.cat.LogCatService) -> b
+    java.lang.String access$3(zce.log.cat.LogCatService) -> c
+    boolean access$4(zce.log.cat.LogCatService) -> d
+    java.lang.String access$5(zce.log.cat.LogCatService) -> e
+    void access$6(zce.log.cat.LogCatService,java.io.File) -> a
+    java.io.File access$7(zce.log.cat.LogCatService) -> f
+    void access$8(zce.log.cat.LogCatService,java.io.BufferedWriter) -> a
+    void access$9(zce.log.cat.LogCatService,boolean) -> a
+    java.lang.String access$10(zce.log.cat.LogCatService) -> g
+    void access$11(zce.log.cat.LogCatService,java.lang.Process) -> a
+    java.lang.Process access$12(zce.log.cat.LogCatService) -> h
+    void access$13(zce.log.cat.LogCatService,java.io.BufferedReader) -> a
+    java.io.BufferedReader access$14(zce.log.cat.LogCatService) -> i
+    void access$15(zce.log.cat.LogCatService,int) -> a
+    int access$16(zce.log.cat.LogCatService) -> j
+    java.util.regex.Pattern access$17(zce.log.cat.LogCatService) -> k
+    void access$18(zce.log.cat.LogCatService,java.util.regex.Matcher) -> a
+    java.util.regex.Matcher access$19(zce.log.cat.LogCatService) -> l
+    android.os.Handler access$20(zce.log.cat.LogCatService) -> m
+    java.io.BufferedWriter access$21(zce.log.cat.LogCatService) -> n
+    android.content.Context access$22(zce.log.cat.LogCatService) -> o
+    android.content.Intent access$23(zce.log.cat.LogCatService) -> p
+zce.log.cat.LogCatService$1 -> zce.log.cat.é¼:
+    zce.log.cat.LogCatService this$0 -> a
+    void handleMessage(android.os.Message) -> handleMessage
+zce.log.cat.LogCatService$LogCat -> zce.log.cat.ç–:
+    zce.log.cat.LogCatService this$0 -> a
+    void run() -> run
+zce.log.cat.LogCatService$LogCatBinder -> zce.log.cat.è¹:
+    zce.log.cat.LogCatService this$0 -> a
+    zce.log.cat.LogCatService getService() -> a
+zce.log.cat.crash.LogCatApplication -> zce.log.cat.crash.LogCatApplication:
+    java.lang.String SdPath -> a
+    void onCreate() -> onCreate
+    java.lang.String getSdPath() -> a
+zce.log.cat.crash.LogCatExceptionHandler -> zce.log.cat.crash.èž:
+    zce.log.cat.crash.LogCatExceptionHandler handler -> a
+    android.content.Context mcontext -> b
+    java.lang.String SdPath -> c
+    zce.log.cat.crash.LogCatExceptionHandler getInstance(android.content.Context,java.lang.String) -> a
+    void uncaughtException(java.lang.Thread,java.lang.Throwable) -> uncaughtException
+    android.content.Context access$0() -> a
+zce.log.cat.crash.LogCatExceptionHandler$1 -> zce.log.cat.crash.å…:
+    zce.log.cat.crash.LogCatExceptionHandler this$0 -> a
+    void run() -> run
+zce.log.cat.widget.AutoCompleteTextView -> zce.log.cat.widget.AutoCompleteTextView:
+    android.graphics.drawable.Drawable clearDrawable -> a
+    boolean hasFoucs -> b
+    void init() -> a
+    boolean onTouchEvent(android.view.MotionEvent) -> onTouchEvent
+    void onFocusChange(android.view.View,boolean) -> onFocusChange
+    void setClearIconVisible(boolean) -> setClearIconVisible
+    void onTextChanged(java.lang.CharSequence,int,int,int) -> onTextChanged
+    void afterTextChanged(android.text.Editable) -> afterTextChanged
+    void beforeTextChanged(java.lang.CharSequence,int,int,int) -> beforeTextChanged
+    boolean getHasFoucs() -> getHasFoucs
+    void setHasFoucs(boolean) -> setHasFoucs
